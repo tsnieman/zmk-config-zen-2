@@ -98,40 +98,40 @@
 			bindings = <&kp ESC>;
 		};
 
+		combo_bt_clr {
+				timeout-ms = <50>;
+				key-positions = <41 0>; // rightmost right thumb + (tab)
+				bindings = <&bt BT_CLR>;
+		};
+
 		combo_bt_sel_0 {
 			timeout-ms = <50>;
-			key-positions = <41 0>; // rightmost right thumb + (tab)
+			key-positions = <41 1>; // rightmost right thumb + (q)
 			bindings = <&bt BT_SEL 0>;
 		};
 
 		combo_bt_sel_1 {
 			timeout-ms = <50>;
-			key-positions = <41 1>; // rightmost right thumb + (q)
+			key-positions = <41 2>; // rightmost right thumb + (w)
 			bindings = <&bt BT_SEL 1>;
 		};
 
 		combo_bt_sel_2 {
 			timeout-ms = <50>;
-			key-positions = <41 2>; // rightmost right thumb + (w)
+			key-positions = <41 3>; // rightmost right thumb + (e)
 			bindings = <&bt BT_SEL 2>;
 		};
 
 		combo_bt_sel_3 {
 			timeout-ms = <50>;
-			key-positions = <41 3>; // rightmost right thumb + (e)
+			key-positions = <41 4>; // rightmost right thumb + (r)
 			bindings = <&bt BT_SEL 3>;
 		};
 
 		combo_bt_sel_4 {
 			timeout-ms = <50>;
-			key-positions = <41 4>; // rightmost right thumb + (r)
+			key-positions = <41 5>; // rightmost right thumb + (t)
 			bindings = <&bt BT_SEL 4>;
-		};
-
-		combo_bt_clr {
-				timeout-ms = <50>;
-				key-positions = <41 5>; // rightmost right thumb + (t)
-				bindings = <&bt BT_CLR>;
 		};
 	};
 };
