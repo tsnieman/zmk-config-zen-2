@@ -106,31 +106,31 @@
 
 		combo_bt_sel_0 {
 			timeout-ms = <50>;
-			key-positions = <41 1>; // rightmost right thumb + (q)
+			key-positions = <41 6>; // rightmost right thumb + (y)
 			bindings = <&bt BT_SEL 0>;
 		};
 
 		combo_bt_sel_1 {
 			timeout-ms = <50>;
-			key-positions = <41 2>; // rightmost right thumb + (w)
+			key-positions = <41 7>; // rightmost right thumb + (u)
 			bindings = <&bt BT_SEL 1>;
 		};
 
 		combo_bt_sel_2 {
 			timeout-ms = <50>;
-			key-positions = <41 3>; // rightmost right thumb + (e)
+			key-positions = <41 8>; // rightmost right thumb + (i)
 			bindings = <&bt BT_SEL 2>;
 		};
 
 		combo_bt_sel_3 {
 			timeout-ms = <50>;
-			key-positions = <41 4>; // rightmost right thumb + (r)
+			key-positions = <41 9>; // rightmost right thumb + (o)
 			bindings = <&bt BT_SEL 3>;
 		};
 
 		combo_bt_sel_4 {
 			timeout-ms = <50>;
-			key-positions = <41 5>; // rightmost right thumb + (t)
+			key-positions = <41 10>; // rightmost right thumb + (p)
 			bindings = <&bt BT_SEL 4>;
 		};
 	};
